@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; // Utilizamos la directiva "using namespace std" para definir el espacio de nombres "std"
 
 int main()
 {
@@ -13,7 +13,8 @@ int main()
 		
 		if ( edad >= 18)
 		{
-			cout<< "¡Ya eres una persona mayor de edad!." << endl;
+			cout<< "¡Ya eres una persona mayor de edad!." << endl; /* Utilizamos un canal de salida estándar "cout" para mostrar mensaje en pantalla
+			y "endl" para dar un salto de linea */
 		}
 		else 
 		{
