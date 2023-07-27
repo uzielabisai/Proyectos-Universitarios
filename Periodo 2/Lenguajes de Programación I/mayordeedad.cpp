@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std; // Utilizamos la directiva "using namespace std" para definir el espacio de nombres "std"
+using namespace std; /* Utilizamos la directiva "using namespace std" para definir el espacio de nombres "std" */
 
 int main()
 {
@@ -24,9 +24,9 @@ int main()
         {
             cout << "Continuar (S/N): ";
             cin >> continuar;
-            continuar = toupper(continuar); // Convertir a mayúscula para que la comparación sea insensible a mayúsculas/minúsculas
+            continuar = toupper(continuar); /* Convertir a mayúscula para que la comparación sea insensible a mayúsculas/minúsculas */
         } 
-		while (continuar != 'S' && continuar != 'N'); // Repetir hasta que se ingrese 'S' o 'N'
+		while (continuar != 'S' && continuar != 'N'); /* Repetir hasta que se ingrese 'S' o 'N' */
 	}
 	while ( continuar == 'S' || continuar == 's');
 	cout<< "Perfecto, que tengas suerte." << endl;
